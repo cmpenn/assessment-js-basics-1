@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a version control system. It is able to track changes made to code projects. It allows users to view the history of a code project."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "A website where gits can be storred outside of the users system."
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@
 */
 
 //CODE HERE
-
+let gitInitDefinition = "It intializes a local repository in the folder you are in"
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+let gitCloneDefinition = "This command is used to create a clone of an existing repository"
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = "It will tell me about the status of my repo"
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +53,8 @@
 */
 
 //CODE HERE
-
+let gitAddDefinition = "Lets user add files to be tracked"
+let gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,8 +65,8 @@
 */
 
 //CODE HERE
-
-
+let gitCommitDefinition = "This will create a snapshot of the files I am tracking"
+let gitCommitCode = "git commit -m 'initial commit'"
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -73,3 +74,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "This will put my local commits on GitHub"
