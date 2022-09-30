@@ -76,7 +76,8 @@ for (i = 0; i < pinkAcres.length; i++){
 */
 
 // CODE HERE
-
+let averageDailyAcres = totalAcres / 7
+// console.log(averageDailyAcres)
 
 
 
@@ -114,7 +115,18 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-
+while (acresLeft >= 0){
+    days += 1
+    console.log(acresLeft)
+    if (acresLeft > averageDailyAcres){
+        console.log()
+        acresLeft -= averageDailyAcres
+    } else if(acresLeft < averageDailyAcres){
+        console.log()
+        acresLeft -= 3
+    }
+    
+}
 
 
 // PROBLEM 4
