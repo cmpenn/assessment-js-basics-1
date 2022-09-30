@@ -115,18 +115,18 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-while (acresLeft >= 0){
-    days += 1
-    console.log(acresLeft)
-    if (acresLeft > averageDailyAcres){
-        console.log()
-        acresLeft -= averageDailyAcres
-    } else if(acresLeft < averageDailyAcres){
-        console.log()
-        acresLeft -= 3
-    }
+// while (acresLeft >= 0){
+//     days += 1
+//     console.log(acresLeft)
+//     if (acresLeft > averageDailyAcres){
+//         console.log()
+//         acresLeft -= averageDailyAcres
+//     } else if(acresLeft < averageDailyAcres){
+//         console.log()
+//         acresLeft -= 3
+//     }
     
-}
+// }
 
 
 // PROBLEM 4
@@ -155,10 +155,19 @@ while (acresLeft >= 0){
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+let fujiTons = fujiAcres.slice(0,7)
+let galaTons = galaAcres.slice(0,7)
+let pinkTons = pinkAcres.slice(0,7)
 
+for(i = 0; i < fujiTons.length; i++){
+    console.log(fujiTons[i] * 6.5)   
+} 
+for(i = 0; i < galaTons.length; i++){
+    console.log(galaTons[i] * 6.5)
+}
+for(i = 0; i < pinkTons.length; i++){
+    console.log(pinkTons[i] * 6.5)
+}
 
 
 
